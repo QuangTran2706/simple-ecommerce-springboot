@@ -16,7 +16,6 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(maxAge = 3600)
 @RequestMapping("/products")
 public class ProductController {
     private final ProductService productService;
